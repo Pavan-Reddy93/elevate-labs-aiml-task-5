@@ -7,23 +7,6 @@
 Implement and analyze tree-based models for classification using **Decision Tree** and **Random Forest**.  
 Explore overfitting control, feature importance, visualization, and cross-validation.
 
----
-
-##  Project Structure
-
-├── heart.csv                  # Dataset
-├── step\_by\_step\_decision\_trees\_rf.ipynb  # Jupyter Notebook (step-by-step)
-├── decision\_trees\_random\_forests\_heart.py # Python script version
-├── outputs/                   # Generated plots & results
-│   ├── dt\_tree\_truncated.png
-│   ├── depth\_vs\_accuracy.png
-│   ├── feature\_importances.png
-│   ├── rf\_feature\_importances.png
-│   ├── results\_summary.txt
-│   └── interview\_QA.txt
-├── README.md
-
-
 
 ##  Installation & Setup
 1. **Clone repository:**
@@ -57,19 +40,6 @@ python decision_trees_random_forests_heart.py
 jupyter notebook step_by_step_decision_trees_rf.ipynb
 ```
 
----
-
-##  Features Implemented
-
-1. **Decision Tree Classifier** training & evaluation.
-2. **Visualization** of the decision tree (Matplotlib & Graphviz).
-3. **Overfitting analysis** — tuning `max_depth` using cross-validation.
-4. **Random Forest Classifier** training & evaluation.
-5. **Feature Importance** plots for both models.
-6. **Cross-validated model comparison** (Decision Tree vs Random Forest).
-7. **Interview Q\&A** file for concept review.
-
----
 
 ##  Results Summary
 
